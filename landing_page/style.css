@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.navbar li{
+    font-family: 'Noto Serif Display', serif;
+}
+
+.left{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(235,233,235);
+}
+
+.logo-left{
+    position: absolute;
+    left:46.5%;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(158,183,155);
+    top:25px;
+    cursor: pointer;
+}
+.logo-right{
+    position: absolute;
+    left:50.1%;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    top: 25px;
+    font-family: 'Noto Serif Display', serif;
+    cursor: pointer;
+}
+
+.search{
+    position: absolute;
+    top:27px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.bag{
+    position: absolute;
+    left: 95%;
+    top: 22px;
+    cursor: pointer;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(158,183,155);
+}
+
+
+.navbar{
+    /* background-color: red; */
+    color: black;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+.navbar ul{
+    display: flex;
+    padding: 20px ;
+    gap: 20rem;
+}
+
+.navbar ul div{
+    display: flex;
+    list-style-type: none;
+    gap:40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.navbar .leftdiv{
+    margin-left: 250px;
+}
+.leftdiv li{
+    padding: 0 30px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.navbar .rightdiv{
+    margin-left: -2%;
+}
+.rightdiv li{
+    padding: 0 30px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rightdiv i{
+    color: white;
+}
+.leftdiv i{
+    margin-left: -150px;
+}
+.title{
+    position: absolute;
+    top: 12rem;
+    left: 6rem;
+    font-size: 90px;
+    font-family: 'Noto Serif Display', serif;
+    z-index:2;
+    font-weight: lighter;
+}
+
+.hero img{
+    position: absolute;
+    top:4.2rem;
+    z-index:10;
+    left: 34%;
+    width: 450px;
+    
+}
+.desc{
+    padding: 10px;
+    width: 35%;
+    position: absolute;
+    top:60%;
+    left: 6.5%;
+
+}
+.desc p{
+    font-size: 17px;
+    color: #8a8a8a;
+    font-size: 500;
+}
+.desc button{
+    padding: 15px 50px;
+    font-size: 15px;
+    background-color: rgb(158,183,155);
+    color: white;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cloth1{
+    position: absolute;
+    background-color: rgb(220,219,223);
+    width: 18%;
+    height: 100px;
+    top:7rem;
+    left:20%;
+    filter: blur(2px);
+
+}
+.cloth-container{
+    position: absolute;
+    width: 13%;
+    /* background: red; */
+    top:7.6rem;
+    font-weight: lighter;
+    left:21rem;
+    font-size: 14px;
+
+}
+
+.cloth-container h3,.cloth-container-rightwala h3{
+    color: #8a8888;
+    margin-top: 12px;
+}
+.cloth-container img{
+    width: 50px;
+    position: absolute;
+    left:-40%;
+}
+
+.band{
+    height: 194px;
+    width: 100%;
+    background-color: #000;
+}
+.logos{
+    top:50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+}
+.logos img{
+    /* gap:50px; */
+    width: 150px;
+    margin-left: 40px;
+}
+.align{
+    /* position: relative; */
+    margin-bottom: 45px;
+}
+
+.new-collection{
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(235,233,235);
+    background-image: url('https://t4.ftcdn.net/jpg/05/95/36/15/240_F_595361535_rZhE8wPzuzvbq374redxr2W81hUHt5rG.jpg');
+}
+.new-collection .heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 70px;
+}
+
+.heading h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Noto Serif Display', serif;
+
+}
+
+.new-collection button{
+    padding: 20px 50px;
+    font-family: 'Noto Serif Display', serif;
+    border: 1px solid #726f6f;
+    outline: none;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.prdt1{
+    background-color: #fff;
+    margin-left: 40px;
+    width: 20%;
+    height:100%;
+}
+
+
+.collection-prdts{
+    display: flex;
+    gap: 60px;
+    border-radius: 10px;
+}
+.collection-prdts h2{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.collection-prdts h1{
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 20px;
+    color: grey;
+}
+.collection-prdts img{
+    width: 180px;
+    margin-left: 20px;
+}
+.prd-name{
+    margin-left: 16px;
+}
+
+.collection-prdts .stars{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.prdt1 img{
+    width: 150px;
+}
+.prdt2 img{
+    width: 152px;
+}
+
+.prdt3 img{
+    width: 230px;
+}
+
+.prdt4 img{
+    width: 153px;
+}
+
+.choose{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(36,34,37);
+    /* display: flex; */
+}
+.choose .heading{
+    color: white;
+    width: 100%;
+    justify-content: center;
+    padding: 3rem 26rem;
+}
+.choose .heading h1{
+    font-size: 60px;
+}
+
+.choose .left{
+    width: 50%;
+    height: 44.5vh;
+    background-color: transparent;
+    width: 40%;
+    padding: 4px 30px;
+    margin-left: 100px;
+}
+
+.choose .left p{
+    color: white;
+    font-size: 17px;
+    color:#726f6f;
+    font-family: 'Noto Serif Display', serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.choose .right1 img{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    left: 60%;
+    top:-330px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+h2{
+    font-family: 'Noto Serif Display', serif;
+}
+ 
+.footer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(214, 212, 213);
+    display: flex;
+} 
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth{
+    width: 20%;
+    height: 50vh;
+}
+
+.first h1{
+    padding: 55px 60px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.first .logos1{
+    display: flex;
+    gap:10px;
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.second h1,.fourth h1,.fifth h1{
+    font-size: 20px;
+    font-family: 'Noto Serif Display', serif;
+
+    padding: 55px 0;
+}
+.second h3,.third h3,.fourth h3,.fifth h3{
+    font-size: 17px;
+    color: rgb(124, 124, 124);
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Noto Serif Display', serif;
+    cursor: pointer;
+}
+
+.third h1,.fifth h1{
+    font-size: 20px;
+    padding: 55px 0;
+    text-transform: uppercase;
+}
+.first h3,.second h3:hover,.third h3:hover,.fourth h3:hover,.fifth h3:hover{
+    color: rgb(44, 42, 42);
+}
+button:hover{
+    cursor: pointer;
+}
+.footer-logo{
+    font-family: 'Noto Serif Display', serif;
+}
